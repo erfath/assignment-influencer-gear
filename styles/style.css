@@ -156,6 +156,35 @@ h1{
     color: rgba(224, 44, 109, 0.87);
 }
 
+.extra-part{
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+    
+    margin-top: 100px;
+}
+
+.other-accessories{
+    width: 610px;
+    height: 224px;
+}
+.other-accessories p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: bold;
+}
+.other-accessories h2{
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: 0;
+}
+.camera-tools img{
+    width: 404px;
+    height: 270px;
+    margin: 0px 0px 20px 10px;
+}
+
 footer{
     
    margin-top: 100px;
@@ -204,34 +233,7 @@ footer{
     transition: color .4s ease;
 }
 
-.extra-part{
-    display: flex;
-    
-    justify-content: space-around;
-    
-    
-    margin-top: 100px;
-}
 
-.other-accessories{
-    width: 610px;
-    height: 224px;
-}
-.other-accessories p{
-    color: #6C6C6C;
-    font-size: 16px;
-    font-weight: bold;
-}
-.other-accessories h2{
-    font-weight: bold;
-    font-size: 38px;
-    margin-top: 0;
-}
-.camera-tools img{
-    width: 404px;
-    height: 270px;
-    margin: 0px 100px 20px 10px;
-}
 
 /*-----------------
         Media Queries 
