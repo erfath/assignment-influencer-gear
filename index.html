@@ -8,9 +8,9 @@
     <!------------- 
         Font Poppin 
         --------------->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather:wght@700&family=Poppins:wght@300;700&display=swap" rel="stylesheet">
 
 <!----- style link  ----->
 <link rel="stylesheet" href="styles/style.css">
@@ -22,8 +22,14 @@
 
 </head>
 <body>
+    <!--------------- 
+        header start  
+    ------------------>
         <header>
-            <h3>Influencer products</h3>
+            <div>
+                <h3>Influencer products</h3>
+            </div>
+            
             <nav>
                 <a href="">Home</a>
                 <a href="">Products</a>
@@ -33,23 +39,44 @@
                 <a href=""><i class="fas fa-shopping-cart"></i></a>
             </nav>
         </header>
-
+        <!-------------- 
+            Header End 
+            --------------->
         <main>
-            <section class="container">
-               <div class="heading">
-                   <h1>Start your Journey as <br> 
-                    Influencer</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum voluptates error, commodi eligendi voluptatum? Nisi magni unde excepturi facere! Ex praesentium voluptatem assumenda tenetur facere inventore, libero repudiandae repellat.</p>
-                    <button class="button"><a href="">Preebook now <i class="fas fa-arrow-right"></i></a></button>
-               </div> 
-               <div class="heading-camera">
-                   <img src="images/main-camera.png" alt="">
+            <section>
+               <div class="container">
+                <div class="heading">
+                    <h1>Starting My Journey as an <br> 
+                     Influencer</h1>
+                     <p>I can remember taking my first pictures when I was seven years old. While on a family vacation, my parents bought me a miniature camera for a few dollars. It used tiny little film and took tiny little black and white pictures. I remember taking them but I don’t really remember what I took pictures of and probably for a good reason; I didn't know what I was doing and I'm sure they were lousy.</p>
+                     <button class="button"><a href="">Preebook now <i class="fas fa-arrow-right"></i></a></button>
+                </div> 
+                <div class="main-camera">
+                    <img src="images/main-camera.png" alt="">
+                </div>
                </div>
             </section>
 
-            <section class="second-container">
+            <section>
+                <!------------ 
+                    All brands logo 
+                            -------------->
+                            
+                <div class="all-logo">
+                    <div class="logo"><img src="logos/Alibaba.svg" alt=""></div>
+                    <div class="logo"><img src="logos/Amazon.svg" alt=""></div>
+                    <div class="logo"><img src="logos/Daraz.pk Logo.svg" alt=""></div>
+                    <div class="logo"><img src="logos/Ebay.svg" alt=""></div>
+                    <div class="logo"><img src="logos/Rakuten.svg" alt=""></div>
+                    <div class="logo"><img src="logos/Target.svg" alt=""></div>
+                    <div class="logo"><img src="logos/Walmart.svg" alt=""></div>
+                </div>
+            </section>
 
-                <div>
+            <section >
+
+                <div class="second-container">
+                  
                     <h2 class="section-title">Popular Collection</h2>
                     <div class="all-collections">
                         <div class="product">
@@ -233,12 +260,33 @@
                             </div>
                         </div>
                         
-
+                        <div class="see-more">
+                            <div >
+                                <a href="">See More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
 
             </section>
+
+            <footer>
+                <div class="footer-content">
+                    <h3>
+                        Influencer products
+                    </h3>
+                    <p class="footer-text">Copyright © 2020  influencer products</p>
+                    <p class="footer-text">All rights reserved</p>
+                    <ul class="social-site">
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin-square"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
         </main>
     
 </body>
